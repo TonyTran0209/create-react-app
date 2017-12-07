@@ -1,0 +1,12 @@
+﻿==============================INITIAL PROJECT==============================
+#install global create-react-app
+npm i create-react-app -g
+
+cd [containerPath]
+
+#inital new project
+create-react-app react-app[projectName]
+cd react-app
+
+#show in browser
+npm start
