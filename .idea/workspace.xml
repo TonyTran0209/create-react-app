@@ -20,8 +20,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -114,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512631471625</updated>
-      <workItem from="1512631473631" duration="865000" />
+      <workItem from="1512631473631" duration="955000" />
     </task>
     <task id="LOCAL-00001" summary="==============================INITIAL PROJECT==============================&#10;#install global create-react-app&#10;npm i create-react-app -g&#10;&#10;cd [containerPath]&#10;&#10;#inital new project&#10;create-react-app react-app[projectName]&#10;cd react-app&#10;&#10;#show in browser&#10;npm start">
       <created>1512632207602</created>
@@ -123,11 +123,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512632207602</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update readme">
+      <created>1512632349761</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1512632349761</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="865000" />
+    <option name="totallyTimeSpent" value="955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -160,7 +167,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="==============================INITIAL PROJECT==============================&#10;#install global create-react-app&#10;npm i create-react-app -g&#10;&#10;cd [containerPath]&#10;&#10;#inital new project&#10;create-react-app react-app[projectName]&#10;cd react-app&#10;&#10;#show in browser&#10;npm start" />
-    <option name="LAST_COMMIT_MESSAGE" value="==============================INITIAL PROJECT==============================&#10;#install global create-react-app&#10;npm i create-react-app -g&#10;&#10;cd [containerPath]&#10;&#10;#inital new project&#10;create-react-app react-app[projectName]&#10;cd react-app&#10;&#10;#show in browser&#10;npm start" />
+    <MESSAGE value="update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="update readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -177,8 +185,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding />
         </state>
       </provider>
