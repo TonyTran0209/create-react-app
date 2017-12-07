@@ -1,3 +1,20 @@
+==============================INITIAL PROJECT==============================
+#install global create-react-app
+npm i create-react-app -g
+
+cd [containerPath]
+
+#inital new project
+create-react-app react-app[projectName]
+cd react-app
+
+#show in browser
+npm start
+
+
+
+==============================XXX==============================
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
