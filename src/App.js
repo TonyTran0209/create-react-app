@@ -48,11 +48,17 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <input type='text' onChange={this.update.bind(this)} placeholder='type to bind data'/>
                 <h1>{this.state.txt} - {this.state.no}</h1>
+
+                <Widget update={this.update.bind(this)} />
+                <Widget update={this.update.bind(this)} />
+                <Widget update={this.update.bind(this)} />
             </div>
         )
     }
 }
+
+const Widget = (props) =>
+    <input type='text' onChange={props.update} placeholder='type to bind data' />
 
 export default App
