@@ -33,32 +33,17 @@ class App extends React.Component {
 */
 
 class App extends React.Component {
-    constructor() {
-        super(); // this is context within this component
-        this.state = {
-            txt: 'this is the state txt',
-            no: 8
-        }
-    }
-
-    update(e) {
-        this.setState({txt: e.target.value})
-    }
-
     render() {
-        return (
-            <div>
-                <h1>{this.state.txt} - {this.state.no}</h1>
-
-                <Widget update={this.update.bind(this)} />
-                <Widget update={this.update.bind(this)} />
-                <Widget update={this.update.bind(this)} />
-            </div>
-        )
+        return <Button>I <Heart /> React</Button>
     }
 }
 
-const Widget = (props) =>
-    <input type='text' onChange={props.update} placeholder='type to bind data' />
+class Heart extends React.Component {
+    render() {
+        return <span>&hearts;</span>
+    }
+}
+
+const Button = (props) => <button>{props.children}</button>
 
 export default App
