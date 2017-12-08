@@ -33,20 +33,26 @@ class App extends React.Component {
 */
 
 class App extends React.Component {
+    constructor() {
+        super(); // this is context within this component
+        this.state = {
+            txt: 'this is the state txt',
+            no: 8
+        }
+    }
+
+    update(e) {
+        this.setState({txt: e.target.value})
+    }
+
     render() {
-        let name = this.props.name
-        let txt_default = this.props.txt_default
         return (
-            <p>
-                <h1>I'm {name}, {this.props.age} years old</h1>
-                <h2>{txt_default}</h2>
-            </p>
+            <div>
+                <input type='text' onChange={this.update.bind(this)} placeholder='type to bind data'/>
+                <h1>{this.state.txt} - {this.state.no}</h1>
+            </div>
         )
     }
-}
-
-App.defaultProps = {
-    txt_default: "this is the default text"
 }
 
 export default App
