@@ -13,13 +13,13 @@ class App extends React.Component {
     render(){
         let items = this.state.items;
         return (
-            <p>
-                {items.map((item,i) => <h5 key={i}>{item.name}</h5>)}
-                <hr />
-                {items.map(item => <h5 key={item.name}>{item.name}</h5>)}
-            </p>
+            <div>
+                {items.map(item => <Person key={item.name} person={item} />)}
+            </div>
         )
     }
 }
+
+const Person = (props) => <h5>{props.person.name}</h5>
 
 export default App
