@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
 
 class App extends React.Component {
     constructor(){
@@ -11,7 +11,7 @@ class App extends React.Component {
             a: this.refs.a.value,
             b: this.refs.b.value,
             c: this.c.value,
-            d: ReactDOM.findDOMNode(this.d).value
+            d: this.d.refs.input.value
         })
     }
     render(){
@@ -46,7 +46,7 @@ class App extends React.Component {
 
 class Input extends React.Component {
     render(){
-        return <input type="text" onChange={this.props.update}/>
+        return <div><input ref="input" type="text" onChange={this.props.update}/></div>
     }
 }
 
