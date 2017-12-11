@@ -42,9 +42,11 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="602">
+              <caret line="46" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,6 +69,7 @@
       <find>state</find>
       <find>props</find>
       <find>child =&gt; child</find>
+      <find>red</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,7 +189,7 @@
       <workItem from="1512718896311" duration="23000" />
       <workItem from="1512718969509" duration="8000" />
       <workItem from="1512958064654" duration="1086000" />
-      <workItem from="1512960777533" duration="22703000" />
+      <workItem from="1512960777533" duration="23563000" />
     </task>
     <task id="LOCAL-00001" summary="==============================INITIAL PROJECT==============================&#10;#install global create-react-app&#10;npm i create-react-app -g&#10;&#10;cd [containerPath]&#10;&#10;#inital new project&#10;create-react-app react-app[projectName]&#10;cd react-app&#10;&#10;#show in browser&#10;npm start">
       <created>1512632207602</created>
@@ -363,11 +366,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512988175032</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="19. Use React.cloneElement to Extend Functionality of Children Components&#10;https://egghead.io/lessons/react-use-react-cloneelement-to-extend-functionality-of-children-components&#10;&#10;Children Utilities – onClick">
+      <created>1512989194464</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1512989194464</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36622000" />
+    <option name="totallyTimeSpent" value="37482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="365" y="0" width="1562" height="1047" extended-state="0" />
@@ -448,7 +458,8 @@
     <MESSAGE value="15.b. Compose React Component Behavior with Higher Order Components&#10;https://egghead.io/lessons/react-react-fundamentals-higher-order-components-replaces-mixins" />
     <MESSAGE value="16. Build a JSX Live Compiler as a React Component&#10;https://egghead.io/lessons/build-a-jsx-live-compiler&#10;&#10;Live JSX Compiler" />
     <MESSAGE value="18. Understand React.Children Utilities&#10;https://egghead.io/lessons/react-understand-react-children-utilities" />
-    <option name="LAST_COMMIT_MESSAGE" value="18. Understand React.Children Utilities&#10;https://egghead.io/lessons/react-understand-react-children-utilities" />
+    <MESSAGE value="19. Use React.cloneElement to Extend Functionality of Children Components&#10;https://egghead.io/lessons/react-use-react-cloneelement-to-extend-functionality-of-children-components&#10;&#10;Children Utilities – onClick" />
+    <option name="LAST_COMMIT_MESSAGE" value="19. Use React.cloneElement to Extend Functionality of Children Components&#10;https://egghead.io/lessons/react-use-react-cloneelement-to-extend-functionality-of-children-components&#10;&#10;Children Utilities – onClick" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -493,7 +504,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -535,7 +548,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -569,7 +584,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -617,7 +634,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -651,7 +670,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -685,7 +706,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -745,9 +768,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="602">
+          <caret line="46" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
