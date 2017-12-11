@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f356a86f-d235-43dd-8751-463b8d195131" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
       <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,8 +42,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="347">
+              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -103,8 +101,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="365" />
+    <option name="width" value="1562" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -188,7 +186,7 @@
       <workItem from="1512718896311" duration="23000" />
       <workItem from="1512718969509" duration="8000" />
       <workItem from="1512958064654" duration="1086000" />
-      <workItem from="1512960777533" duration="21698000" />
+      <workItem from="1512960777533" duration="22703000" />
     </task>
     <task id="LOCAL-00001" summary="==============================INITIAL PROJECT==============================&#10;#install global create-react-app&#10;npm i create-react-app -g&#10;&#10;cd [containerPath]&#10;&#10;#inital new project&#10;create-react-app react-app[projectName]&#10;cd react-app&#10;&#10;#show in browser&#10;npm start">
       <created>1512632207602</created>
@@ -358,14 +356,21 @@
       <option name="project" value="LOCAL" />
       <updated>1512983398619</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="18. Understand React.Children Utilities&#10;https://egghead.io/lessons/react-understand-react-children-utilities">
+      <created>1512988175032</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1512988175032</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35617000" />
+    <option name="totallyTimeSpent" value="36622000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="365" y="0" width="1562" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18952134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -442,7 +447,8 @@
     <MESSAGE value="15.a. Compose React Component Behavior with Higher Order Components&#10;https://egghead.io/lessons/react-react-fundamentals-higher-order-components-replaces-mixins" />
     <MESSAGE value="15.b. Compose React Component Behavior with Higher Order Components&#10;https://egghead.io/lessons/react-react-fundamentals-higher-order-components-replaces-mixins" />
     <MESSAGE value="16. Build a JSX Live Compiler as a React Component&#10;https://egghead.io/lessons/build-a-jsx-live-compiler&#10;&#10;Live JSX Compiler" />
-    <option name="LAST_COMMIT_MESSAGE" value="16. Build a JSX Live Compiler as a React Component&#10;https://egghead.io/lessons/build-a-jsx-live-compiler&#10;&#10;Live JSX Compiler" />
+    <MESSAGE value="18. Understand React.Children Utilities&#10;https://egghead.io/lessons/react-understand-react-children-utilities" />
+    <option name="LAST_COMMIT_MESSAGE" value="18. Understand React.Children Utilities&#10;https://egghead.io/lessons/react-understand-react-children-utilities" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -739,8 +745,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        <state relative-caret-position="347">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding />
         </state>
       </provider>
