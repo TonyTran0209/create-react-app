@@ -10,16 +10,8 @@ class App extends React.Component {
             .then( response => response.json() )
             .then( ({results: items}) => this.setState({items}))
     }
-    filter(e){
-        this.setState({filter: e.target.value})
-    }
     render(){
         let items = this.state.items;
-        if(this.state.filter){
-            items = items.filter( item =>
-                item.name.toLowerCase()
-                    .includes(this.state.filter.toLowerCase()))
-        }
         return (
             <p>
                 {items.map((item,i) => <h5 key={i}>{item.name}</h5>)}
