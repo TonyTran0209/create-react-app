@@ -52,8 +52,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="717">
+              <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -195,7 +195,7 @@
       <workItem from="1512718896311" duration="23000" />
       <workItem from="1512718969509" duration="8000" />
       <workItem from="1512958064654" duration="1086000" />
-      <workItem from="1512960777533" duration="16063000" />
+      <workItem from="1512960777533" duration="16204000" />
     </task>
     <task id="LOCAL-00001" summary="==============================INITIAL PROJECT==============================&#10;#install global create-react-app&#10;npm i create-react-app -g&#10;&#10;cd [containerPath]&#10;&#10;#inital new project&#10;create-react-app react-app[projectName]&#10;cd react-app&#10;&#10;#show in browser&#10;npm start">
       <created>1512632207602</created>
@@ -344,11 +344,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512977226836</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="15.a. Compose React Component Behavior with Higher Order Components&#10;https://egghead.io/lessons/react-react-fundamentals-higher-order-components-replaces-mixins">
+      <created>1512981918987</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1512981918987</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29982000" />
+    <option name="totallyTimeSpent" value="30123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="365" y="0" width="1562" height="1047" extended-state="0" />
@@ -425,7 +432,8 @@
     <MESSAGE value="14.a. Use map to Create React Components from Arrays of Data&#10;https://egghead.io/lessons/react-dynamically-generated-components" />
     <MESSAGE value="14.b. Use map to Create React Components from Arrays of Data&#10;https://egghead.io/lessons/react-dynamically-generated-components" />
     <MESSAGE value="14.C. Use map to Create React Components from Arrays of Data&#10;https://egghead.io/lessons/react-dynamically-generated-components&#10;&#10;Fetch Map Array - API - Search" />
-    <option name="LAST_COMMIT_MESSAGE" value="14.C. Use map to Create React Components from Arrays of Data&#10;https://egghead.io/lessons/react-dynamically-generated-components&#10;&#10;Fetch Map Array - API - Search" />
+    <MESSAGE value="15.a. Compose React Component Behavior with Higher Order Components&#10;https://egghead.io/lessons/react-react-fundamentals-higher-order-components-replaces-mixins" />
+    <option name="LAST_COMMIT_MESSAGE" value="15.a. Compose React Component Behavior with Higher Order Components&#10;https://egghead.io/lessons/react-react-fundamentals-higher-order-components-replaces-mixins" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -715,8 +723,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="717">
+          <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
           <folding />
         </state>
       </provider>
