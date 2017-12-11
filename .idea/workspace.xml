@@ -52,9 +52,11 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="250">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,14 +64,19 @@
       <file leaf-file-name="AppTest.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>componentDidMount</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -188,7 +195,7 @@
       <workItem from="1512718896311" duration="23000" />
       <workItem from="1512718969509" duration="8000" />
       <workItem from="1512958064654" duration="1086000" />
-      <workItem from="1512960777533" duration="3973000" />
+      <workItem from="1512960777533" duration="6817000" />
     </task>
     <task id="LOCAL-00001" summary="==============================INITIAL PROJECT==============================&#10;#install global create-react-app&#10;npm i create-react-app -g&#10;&#10;cd [containerPath]&#10;&#10;#inital new project&#10;create-react-app react-app[projectName]&#10;cd react-app&#10;&#10;#show in browser&#10;npm start">
       <created>1512632207602</created>
@@ -281,11 +288,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512964502578</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="10.d. Use React ref to Get a Reference to Specific Components&#10;https://egghead.io/lessons/react-using-refs-to-access-components&#10;&#10;Binding specific fields">
+      <created>1512964760616</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1512964760616</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17892000" />
+    <option name="totallyTimeSpent" value="20736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="365" y="0" width="1562" height="1047" extended-state="0" />
@@ -355,7 +369,8 @@
     <MESSAGE value="10.a. Use React ref to Get a Reference to Specific Components&#10;https://egghead.io/lessons/react-using-refs-to-access-components&#10;&#10;Binding specific fields" />
     <MESSAGE value="10.b. Use React ref to Get a Reference to Specific Components&#10;https://egghead.io/lessons/react-using-refs-to-access-components&#10;&#10;Binding specific fields" />
     <MESSAGE value="10.C. Use React ref to Get a Reference to Specific Components&#10;https://egghead.io/lessons/react-using-refs-to-access-components&#10;&#10;Binding specific fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.C. Use React ref to Get a Reference to Specific Components&#10;https://egghead.io/lessons/react-using-refs-to-access-components&#10;&#10;Binding specific fields" />
+    <MESSAGE value="10.d. Use React ref to Get a Reference to Specific Components&#10;https://egghead.io/lessons/react-using-refs-to-access-components&#10;&#10;Binding specific fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.d. Use React ref to Get a Reference to Specific Components&#10;https://egghead.io/lessons/react-using-refs-to-access-components&#10;&#10;Binding specific fields" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -400,7 +415,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -442,7 +459,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -476,7 +495,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -524,7 +545,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -558,7 +581,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -592,7 +617,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -637,17 +664,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="250">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
