@@ -1,54 +1,33 @@
 import React from 'react';
 
-/* 1st way
 class App extends React.Component {
-    render() {
-        return React.createElement('h1', null, '1st Hello')
+    constructor(){
+        super();
+        this.state = {currentEvent: 'nothing'}
+        this.update = this.update.bind(this)
     }
-}
-*/
-
-/* 2nd way
-class App extends React.Component {
-    render() {
-        return <h1>2nd Hello</h1>
+    update(e){
+        this.setState({currentEvent: e.type})
     }
-}
-*/
-
-// 3rd way
-// const App = () => <h1>3rd Hello</h1>
-
-/* multi-lines
-class App extends React.Component {
-    render() {
+    render(){
         return (
             <div>
-                <b>Hello</b>
-                <b>Tony</b>
+                <textarea
+                    onKeyPress={this.update}
+                    onCopy={this.update}
+                    onCut={this.update}
+                    onPaste={this.update}
+                    onFocus={this.update}
+                    onBlur={this.update}
+                    onDoubleClick={this.update}
+                    onTouchStart={this.update}
+                    onTouchMove={this.update}
+                    onTouchEnd={this.update}
+                    cols="30"
+                    rows="10" />
+                <h1>Current Event: {this.state.currentEvent}</h1>
             </div>
         )
-    }
-}
-*/
-
-class App extends React.Component {
-    render() {
-        return <Title text="123" />
-    }
-}
-
-const Title = (props) => <h1>Title: {props.text}</h1>
-
-Title.propTypes = {
-    // text: React.PropTypes.string.isRequired
-    text(props, propName, component){
-        if(!(propName in props)){
-            return new Error(`missing ${propName}`)
-        }
-        if(props[propName].length < 6){
-            return new Error(`${propName} was too short`)
-        }
     }
 }
 
