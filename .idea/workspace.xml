@@ -52,8 +52,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="493">
+              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -188,7 +188,7 @@
       <workItem from="1512718896311" duration="23000" />
       <workItem from="1512718969509" duration="8000" />
       <workItem from="1512958064654" duration="1086000" />
-      <workItem from="1512960777533" duration="2622000" />
+      <workItem from="1512960777533" duration="2941000" />
     </task>
     <task id="LOCAL-00001" summary="==============================INITIAL PROJECT==============================&#10;#install global create-react-app&#10;npm i create-react-app -g&#10;&#10;cd [containerPath]&#10;&#10;#inital new project&#10;create-react-app react-app[projectName]&#10;cd react-app&#10;&#10;#show in browser&#10;npm start">
       <created>1512632207602</created>
@@ -260,11 +260,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512962460796</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="10.a. Use React ref to Get a Reference to Specific Components&#10;https://egghead.io/lessons/react-using-refs-to-access-components&#10;&#10;Binding specific fields">
+      <created>1512963436009</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1512963436009</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16541000" />
+    <option name="totallyTimeSpent" value="16860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="365" y="0" width="1562" height="1047" extended-state="0" />
@@ -331,7 +338,8 @@
     <MESSAGE value="7. Access Nested Data with Reacts props.children&#10;https://egghead.io/lessons/react-accessing-child-properties&#10;&#10;Nested component" />
     <MESSAGE value="8. Add Custom propType Validation to React Components&#10;https://egghead.io/lessons/react-custom-proptype-validation&#10;&#10;Custom Validation" />
     <MESSAGE value="8. Normalize Events with Reacts Synthetic Event System&#10;https://egghead.io/lessons/react-react-synthetic-event-system&#10;&#10;Event Listener" />
-    <option name="LAST_COMMIT_MESSAGE" value="8. Normalize Events with Reacts Synthetic Event System&#10;https://egghead.io/lessons/react-react-synthetic-event-system&#10;&#10;Event Listener" />
+    <MESSAGE value="10.a. Use React ref to Get a Reference to Specific Components&#10;https://egghead.io/lessons/react-using-refs-to-access-components&#10;&#10;Binding specific fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.a. Use React ref to Get a Reference to Specific Components&#10;https://egghead.io/lessons/react-using-refs-to-access-components&#10;&#10;Binding specific fields" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -621,8 +629,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="493">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding />
         </state>
       </provider>
