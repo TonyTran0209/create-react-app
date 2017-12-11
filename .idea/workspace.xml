@@ -52,8 +52,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+            <state relative-caret-position="357">
+              <caret line="21" column="42" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="18" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -64,9 +64,11 @@
       <file leaf-file-name="AppTest.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="391">
+              <caret line="23" column="53" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,7 +197,7 @@
       <workItem from="1512718896311" duration="23000" />
       <workItem from="1512718969509" duration="8000" />
       <workItem from="1512958064654" duration="1086000" />
-      <workItem from="1512960777533" duration="7359000" />
+      <workItem from="1512960777533" duration="10282000" />
     </task>
     <task id="LOCAL-00001" summary="==============================INITIAL PROJECT==============================&#10;#install global create-react-app&#10;npm i create-react-app -g&#10;&#10;cd [containerPath]&#10;&#10;#inital new project&#10;create-react-app react-app[projectName]&#10;cd react-app&#10;&#10;#show in browser&#10;npm start">
       <created>1512632207602</created>
@@ -302,21 +304,27 @@
       <option name="project" value="LOCAL" />
       <updated>1512967699342</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="12. Manage React Component State with Lifecycle Methods&#10;https://egghead.io/lessons/react-component-lifecycle-mounting-usage&#10;&#10;Coponent Lifecycle Methods – Mount/Unmount - Set state">
+      <created>1512968234853</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1512968234853</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21278000" />
+    <option name="totallyTimeSpent" value="24201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="365" y="0" width="1562" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18997912" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26439232" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29850745" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2130621" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -378,7 +386,8 @@
     <MESSAGE value="10.C. Use React ref to Get a Reference to Specific Components&#10;https://egghead.io/lessons/react-using-refs-to-access-components&#10;&#10;Binding specific fields" />
     <MESSAGE value="10.d. Use React ref to Get a Reference to Specific Components&#10;https://egghead.io/lessons/react-using-refs-to-access-components&#10;&#10;Binding specific fields" />
     <MESSAGE value="11. Understand the React Component Lifecycle Methods&#10;https://egghead.io/lessons/react-component-lifecycle-mounting-basics&#10;&#10;Coponent Lifecycle Methods – Mount/Unmount" />
-    <option name="LAST_COMMIT_MESSAGE" value="11. Understand the React Component Lifecycle Methods&#10;https://egghead.io/lessons/react-component-lifecycle-mounting-basics&#10;&#10;Coponent Lifecycle Methods – Mount/Unmount" />
+    <MESSAGE value="12. Manage React Component State with Lifecycle Methods&#10;https://egghead.io/lessons/react-component-lifecycle-mounting-usage&#10;&#10;Coponent Lifecycle Methods – Mount/Unmount - Set state" />
+    <option name="LAST_COMMIT_MESSAGE" value="12. Manage React Component State with Lifecycle Methods&#10;https://egghead.io/lessons/react-component-lifecycle-mounting-usage&#10;&#10;Coponent Lifecycle Methods – Mount/Unmount - Set state" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -415,7 +424,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -459,7 +470,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -672,16 +685,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="391">
+          <caret line="23" column="53" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        <state relative-caret-position="357">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
